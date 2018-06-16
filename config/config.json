@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "email-trigger-app-cust-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/emailTriggerAppCust/EmailTriggerAppCustApplicationCustomizer.js",
+          "manifest": "./src/extensions/emailTriggerAppCust/EmailTriggerAppCustApplicationCustomizer.manifest.json"
+        }
+      ]
+    },
+    "hello-world-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/helloWorld/HelloWorldApplicationCustomizer.js",
+          "manifest": "./src/extensions/helloWorld/HelloWorldApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "EmailTriggerAppCustApplicationCustomizerStrings": "lib/extensions/emailTriggerAppCust/loc/{locale}.js",
+    "HelloWorldApplicationCustomizerStrings": "lib/extensions/helloWorld/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "analytics-custom-solution-client-side-solution",
+    "id": "28942f1e-a4d1-4598-9868-25643821c4de",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/analytics-custom-solution.sppkg"
+  }
+}

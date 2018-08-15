@@ -4,7 +4,7 @@
   "https": true,
   "serveConfigurations": {
     "default": {
-      "pageUrl": "https://myadmo365.sharepoint.com/sites/Comm_LeaderShip/",
+      "pageUrl": "https://contoso.sharepoint.com/sites/mySite/SitePages/myPage.aspx",
       "customActions": {
         "afe6c232-139e-4965-8fe0-0f9de4ffd1d4": {
           "location": "ClientSideExtension.ApplicationCustomizer",
